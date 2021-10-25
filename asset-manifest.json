@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/contador-udemy/static/css/main.74efbd56.chunk.css",
+    "main.js": "/contador-udemy/static/js/main.2bb5a21c.chunk.js",
+    "main.js.map": "/contador-udemy/static/js/main.2bb5a21c.chunk.js.map",
+    "runtime-main.js": "/contador-udemy/static/js/runtime-main.ee774295.js",
+    "runtime-main.js.map": "/contador-udemy/static/js/runtime-main.ee774295.js.map",
+    "static/js/2.cdf08bc7.chunk.js": "/contador-udemy/static/js/2.cdf08bc7.chunk.js",
+    "static/js/2.cdf08bc7.chunk.js.map": "/contador-udemy/static/js/2.cdf08bc7.chunk.js.map",
+    "static/js/3.d38488e2.chunk.js": "/contador-udemy/static/js/3.d38488e2.chunk.js",
+    "static/js/3.d38488e2.chunk.js.map": "/contador-udemy/static/js/3.d38488e2.chunk.js.map",
+    "index.html": "/contador-udemy/index.html",
+    "static/css/main.74efbd56.chunk.css.map": "/contador-udemy/static/css/main.74efbd56.chunk.css.map",
+    "static/js/2.cdf08bc7.chunk.js.LICENSE.txt": "/contador-udemy/static/js/2.cdf08bc7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee774295.js",
+    "static/js/2.cdf08bc7.chunk.js",
+    "static/css/main.74efbd56.chunk.css",
+    "static/js/main.2bb5a21c.chunk.js"
+  ]
+}
