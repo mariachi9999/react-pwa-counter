@@ -2,7 +2,7 @@
   "name": "contador-udemy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mariachi9999.github.io/contador-udemy/public/index.html",
+  "homepage": "https://mariachi9999.github.io/contador-udemy",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
