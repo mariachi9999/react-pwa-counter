@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+.dark-mode{
+  background-color: #282c34;
+  color: snow;
+
+}
+
+.light-mode{
+  background-color: snow;
+  color: #282c34
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,8 +30,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+#App-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;

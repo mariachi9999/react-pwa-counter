@@ -1,22 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Contador from "./components/Contador/Contador";
+import React from "react";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
+  const [fondo, setFondo] = React.useState("Claro");
+
+  const handleClick = () => {
+    fondo === "Claro" ? setFondo("Oscuro") : setFondo("Claro");
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <div>
+        <Navbar setFondo={handleClick} fondo={fondo} className="navbar" />
+        <hr/>
+      </div>
+      <header
+        id="App-header"
+        className={`${fondo}` === "Claro" ? "light-mode" : "dark-mode"}
+      >
+        <Contador fondo={fondo}/>
       </header>
     </div>
   );
